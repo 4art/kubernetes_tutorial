@@ -11,3 +11,6 @@ kubectl apply -f webapp.yaml
 
 echo "checking how the pods working"
 kubectl get all
+
+echo "running in a browser"
+minikube service webapp-service
